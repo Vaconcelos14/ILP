@@ -1,3 +1,7 @@
-for i in range (10):
-    if i % 2 == 0:
-        print(i)
+while True:
+    n = int(input("Digite um número par:"))
+    if n%2==0:
+        print("Você digitou um númro par, Parabéns!")
+        break
+    else:
+        print("Você está catimbando demais na escola, seu safado!")
