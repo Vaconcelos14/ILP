@@ -1,13 +1,7 @@
 quant = int(input("Digite a quantidede de itens da lista:"))
 itens = input("Digite os itens da lista separados por espaço:").split()
 num = [int(item) for item in itens]
-maior = num[0]
-menor = num[0]
-for i in num:
-    if i>maior:
-        maior=i
-    else:
-        menor=i
-print(menor, maior)
-
-    
+soma = 0
+for i in num:   
+    soma+=i
+print(soma)
